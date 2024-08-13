@@ -1,0 +1,42 @@
+select Host,User from mysql.user;
+
+
+show grants; 
+
+
+
+
+CREATE USER  'user'@'localhost';
+
+
+GRANT ALL PRIVILEGES on *.* to 'user'@'localhost' IDENTIFIED BY ' ';
+
+
+
+
+
+
+
+
+GRANT INSERT , SELECT ON *.* TO 'user'@'localhost';
+
+
+
+
+GRANT ALL ON *.* TO 'user'@'localhost' WITH GRANT OPTION
+
+
+
+
+
+
+REVOKE DROP ON *.* from 'user'@'localhost';
+
+
+
+
+
+
+
+
+
