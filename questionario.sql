@@ -111,12 +111,12 @@ CREATE TABLE `utente` (
 --
 
 INSERT INTO `utente` (`id`, `datacompilazione`, `nome`, `cognome`, `statooccupazione`, `user`, `pass`, `codicecorso`) VALUES
-(1, '2017-05-02 22:00:00', 'massimo', 'coronato', 0, 'dd', 'hh', 'b1'),
-(2, '2017-05-03 14:35:55', 'renato', 'zero', 1, 'msm', 'hhh', 'b2'),
-(3, '2017-05-05 09:10:46', 'fabio', 'rossi', 0, 'aa1', 'bb1', 'b3'),
+(1, '2017-05-02 22:00:00', 'martina', 'coronato', 0, 'dd', 'hh', 'b1'),
+(2, '2017-05-03 14:35:55', 'paola', 'decarlo', 1, 'msm', 'hhh', 'b2'),
+(3, '2017-05-05 09:10:46', 'marta', 'rossi', 0, 'aa1', 'bb1', 'b3'),
 (4, '2017-05-05 12:47:07', 'Valeria', 'bianchi', 1, 'kj', 'kl', 'b3'),
-(5, '2017-05-05 14:16:04', 'fabio', 'bianchi', 0, 'dd1', 'ff2', 'b2'),
-(6, '2017-05-05 14:22:53', 'fabio', 'rossi', 0, 'rr', 'rr', 'b2');
+(5, '2017-05-05 14:16:04', 'lisa', 'bianchi', 0, 'dd1', 'ff2', 'b2'),
+(6, '2017-05-05 14:22:53', 'milena', 'rossi', 0, 'rr', 'rr', 'b2');
 
 -- --------------------------------------------------------
 
